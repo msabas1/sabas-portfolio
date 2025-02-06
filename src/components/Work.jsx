@@ -8,7 +8,7 @@ const Work = () => {
                 Work Experience
             </h2>
 
-            <p className="text-zinc-300 mt-3 mb-4 max-w-[100ch]">
+            <p className="text-white mt-3 mb-4 max-w-[100ch]">
             I have professional experience conducting data analysis in support of IR Spectroscopy research and maintaining and developing .NET enterprise applications,
             continuously growing in my skillset!
             </p>
