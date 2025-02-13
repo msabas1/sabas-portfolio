@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { motion } from "motion/react";
 
 const ButtonPrimary = ({
     href,
@@ -27,7 +28,7 @@ const ButtonPrimary = ({
         )
     } else {
         return (
-            <button className={"btn btn-primary " + classes}>
+            <motion.button whileHover={{scale: 1.2}} className={"btn btn-primary " + classes}>
                 {label}
 
                 {icon ?
@@ -37,7 +38,7 @@ const ButtonPrimary = ({
                     </span>
                     : undefined
                 }
-            </button>
+            </motion.button>
         )
     }
 }

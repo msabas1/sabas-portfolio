@@ -1,4 +1,5 @@
 import { ButtonPrimary, ButtonOutline } from "./Button";
+import { motion } from "motion/react";
 
 const Hero = () => {
   return (
@@ -28,19 +29,19 @@ const Hero = () => {
                 <h2 className="headline-1 max-w-[20ch] sm:max-w-[25ch] lg:max-w-[20ch] mt-5 mb-8 lg:mb-10">
                     Building, Maintaining, & Testing Software Systems
                 </h2>
-                <div className="flex items-center gap-3">
+                <motion.div whileHover={{scale: 1.01}} className="flex items-center gap-3">
                     <ButtonPrimary 
                         href="#about"
                         label="See more"
                         icon="arrow_downward"
                     />
-                </div>
+                </motion.div>
             </div>
 
             <div className="hidden lg:block">
                 <figure className="w-full max-w-[350px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40
                     to-65% rounded-[60px] overflow-hidden">
-                    <img 
+                    <img
                         src="/images/sabas-banner.jpg"
                         width={656}
                         height={800}

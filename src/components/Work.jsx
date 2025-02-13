@@ -1,4 +1,5 @@
 import { ButtonPrimary } from "./Button";
+import { motion } from "motion/react";
 
 const Work = () => {
   return (
@@ -34,13 +35,13 @@ const Work = () => {
                 className="img-work-home"/>
             </div>
             
-            <div className="flex items-center gap-3 py-4">
+            <motion.div whileHover={{scale: 1.01}} className="flex items-center gap-3 py-4">
                 <ButtonPrimary 
                     href="/experience"
                     label="Read More"
                     icon="arrow_forward"
                 />
-            </div>
+            </motion.div>
         </div>
     </section>
   )

@@ -1,3 +1,5 @@
+import { motion } from "motion/react";
+
 const socialLinks = [
     {
       href: 'https://github.com/msabas1?tab=repositories',
@@ -98,9 +100,9 @@ const Contact = () => {
                     ></textarea>
                 </div>
 
-                <button type="submit" className="btn btn-primary [&]:max-w-full w-full justify-center">
+                <motion.button whileHover={{scale: 1.01}} type="submit" className="btn btn-primary [&]:max-w-full w-full justify-center">
                     Submit
-                </button>
+                </motion.button>
             </form>
 
         </div>

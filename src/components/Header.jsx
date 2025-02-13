@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Navbar from "./Navbar";
+import { motion } from "motion/react";
 
 const Header = () => {
     const [navOpen, setNavOpen] = useState(false);
@@ -10,7 +11,8 @@ const Header = () => {
             
             <h1>
                 <a href="/" className="logo">
-                    <img
+                    <motion.img
+                        whileHover={{scale: 1.1}}
                         src="/images/MSLogo.png"
                         width={40}
                         height={40}
@@ -29,11 +31,12 @@ const Header = () => {
                 <Navbar navOpen={navOpen}/>
             </div>
 
-            <a 
+            <motion.a
+                whileHover={{scale: 1.05}}
                 href="#contact"
                 className="btn btn-secondary max-md:hidden md:justify-self-end">
                 Contact Me
-            </a>
+            </motion.a>
         
         </div>
     </header>
