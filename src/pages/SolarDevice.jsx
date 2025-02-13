@@ -27,7 +27,7 @@ const SolarDevice = () => {
                 charging functionalities, and troubleshooted the hardware to sync with the code. 
             </p>
 
-            <p className="text-white text-base mt-10 mr-5">Here is a link to the project's Github <a href="https://github.com/basedmarv/Solar-Tracking-Power-Device" class="portfolio-item-link" target="_blank">repository</a>.</p> 
+            <p className="text-white text-base mt-10 mr-5">Here is a link to the project's Github <a href="https://github.com/basedmarv/Solar-Tracking-Power-Device" className="portfolio-item-link" target="_blank">repository</a>.</p> 
         </div>
         <Contact />
     </>
