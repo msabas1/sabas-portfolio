@@ -17,7 +17,7 @@ const BudgetBuddy = () => {
                 </p>
 
                 <p className="text-white text-base mt-10 mr-5">
-                    Here is the link to the Github repository to the front end testing: <a href="https://github.com/My-Budget-Buddy/Budget-Buddy-Frontend-Testing" className="portfolio-item-link">Budget Buddy Frontend Testing</a>
+                    Here is the link to the Github <a href="https://github.com/My-Budget-Buddy/Budget-Buddy-Frontend-Testing" className="portfolio-item-link">repository</a> to the front end testing.
                 </p>
             </div>
             <Contact />
