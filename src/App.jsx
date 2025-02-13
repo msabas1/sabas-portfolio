@@ -6,6 +6,7 @@ import Work from "./components/Work";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
 import Experience from "./pages/Experience";
+import BudgetBuddy from "./pages/BudgetBuddy";
 import SolarDevice from "./pages/SolarDevice";
 import AtmosphereSystem from "./pages/AtmosphereSystem";
 import MarioEmulator from "./pages/MarioEmulator";
@@ -28,6 +29,7 @@ const App = () => {
                     </>
                 }/>
                 <Route path="/experience" element={<Experience />}/>
+                <Route path="/budget-buddy" element={<BudgetBuddy />}/>
                 <Route path="/solar-device" element={<SolarDevice />}/>
                 <Route path="/atmosphere-system" element={<AtmosphereSystem />}/>
                 <Route path="/mario-emulator" element={<MarioEmulator />}/>

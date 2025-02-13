@@ -2,6 +2,12 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
     {
+      imgSrc: '/images/BudgetBuddy.png',
+      title: 'Budget Buddy',
+      tags: ['Test Automation', 'BDD'],
+      projectLink: 'budget-buddy'
+    },
+    {
       imgSrc: '/images/WarehouseFleetItemTable.png',
       title: 'Inventory Management',
       tags: ['Full Stack', 'Web App'],

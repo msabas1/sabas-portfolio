@@ -315,5 +315,5 @@ body{
 
 .portfolio-item-link{
   text-align: center; 
-  color:#61a3e4;
+  @apply text-sky-300
 }
