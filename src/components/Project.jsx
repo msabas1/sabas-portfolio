@@ -6,7 +6,7 @@ const projects = [
       imgSrc: '/images/BudgetBuddy.png',
       title: 'Budget Buddy',
       tags: ['Test Automation', 'BDD'],
-      projectLink: 'budget-buddy'
+      projectLink: 'projects/budget-buddy'
     },
     {
       imgSrc: '/images/WarehouseFleetItemTable.png',
@@ -18,25 +18,25 @@ const projects = [
       imgSrc: '/images/SolarDevice.jpg',
       title: 'Solar Tracking Power Device',
       tags: ['Machine Learning', 'Hardware'],
-      projectLink: '/solar-device'
+      projectLink: 'projects/solar-device'
     },
     {
       imgSrc: '/images/AtmosphereLogo.JPG',
       title: 'Atmosphere Monitoring System',
       tags: ['Rasberry Pi', 'IoT'],
-      projectLink: '/atmosphere-system'
+      projectLink: 'projects/atmosphere-system'
     },
     {
       imgSrc: '/images/SuperMario.jpg',
       title: 'Super Mario Bros. Emulator',
       tags: ['Java', 'Android'],
-      projectLink: '/mario-emulator'
+      projectLink: 'projects/mario-emulator'
     },
     {
       imgSrc: '/images/TetrisThumbnail.jpg',
       title: 'Tetris Emulator',
       tags: ['Java', 'Android'],
-      projectLink: '/tetris-emulator'
+      projectLink: 'projects/tetris-emulator'
     }
   ];
 

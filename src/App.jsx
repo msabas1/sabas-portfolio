@@ -29,11 +29,11 @@ const App = () => {
                     </>
                 }/>
                 <Route path="/experience" element={<Experience />}/>
-                <Route path="/budget-buddy" element={<BudgetBuddy />}/>
-                <Route path="/solar-device" element={<SolarDevice />}/>
-                <Route path="/atmosphere-system" element={<AtmosphereSystem />}/>
-                <Route path="/mario-emulator" element={<MarioEmulator />}/>
-                <Route path="/tetris-emulator" element={<TetrisEmulator />}/>
+                <Route path="projects/budget-buddy" element={<BudgetBuddy />}/>
+                <Route path="projects/solar-device" element={<SolarDevice />}/>
+                <Route path="projects/atmosphere-system" element={<AtmosphereSystem />}/>
+                <Route path="projects/mario-emulator" element={<MarioEmulator />}/>
+                <Route path="projects/tetris-emulator" element={<TetrisEmulator />}/>
             </Routes>
         </>
     )
