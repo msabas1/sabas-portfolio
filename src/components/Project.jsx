@@ -1,4 +1,5 @@
 import ProjectCard from "./ProjectCard";
+import { motion } from "motion/react";
 
 const projects = [
     {
@@ -42,7 +43,18 @@ const projects = [
 const Project = () => {
   return (
     <section id="projects" className="section">
-        <div className="container">
+        <motion.div
+          className="container"
+          initial={{
+            opacity: 0
+          }}
+          whileInView={{
+            opacity: 1
+          }}
+          viewport={{
+            margin: "-100px"
+          }}
+        >
             <h2 className="headline-2">
                 Completed Projects
             </h2>
@@ -51,19 +63,19 @@ const Project = () => {
             See the variety of different projects I've completed below.
             </p>
 
-        <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))]">
-            {projects.map(({ imgSrc, title, tags, projectLink }, key) =>
-            (
-                <ProjectCard 
-                    key={key}
-                    imgSrc={imgSrc}
-                    title={title}
-                    tags={tags}
-                    projectLink={projectLink}
-                />
-            ))}
-        </div>
-      </div>
+          <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))]">
+              {projects.map(({ imgSrc, title, tags, projectLink }, key) =>
+              (
+                  <ProjectCard 
+                      key={key}
+                      imgSrc={imgSrc}
+                      title={title}
+                      tags={tags}
+                      projectLink={projectLink}
+                  />
+              ))}
+          </div>
+      </motion.div>
     </section>
   )
 }

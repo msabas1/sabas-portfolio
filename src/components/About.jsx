@@ -1,3 +1,5 @@
+import { motion } from "motion/react";
+
 const aboutItems = [
     {
       label: 'Enterprise systems supported',
@@ -16,7 +18,18 @@ const aboutItems = [
 const About = () => {
   return (
     <section id="about" className="section">
-        <div className="container">
+        <motion.div
+          className="container"
+          initial={{
+            opacity: 0
+          }}
+          whileInView={{
+            opacity: 1
+          }}
+          viewport={{
+            margin: "-100px"
+          }}
+        >
             <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12">
                 <p className="text-white mb-4 md:mb-8 md:text-xl md:max-w-[75ch]">
                 Nice to meet you, I'm Marvin Neil Sabas! I am a software engineer with experience in building, maintaining, and testing software systems primarily using object-oriented languages.
@@ -45,7 +58,7 @@ const About = () => {
                     }
                 </div>
             </div>
-        </div>
+        </motion.div>
     </section>
   )
 }

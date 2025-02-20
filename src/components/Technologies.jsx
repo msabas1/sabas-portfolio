@@ -1,4 +1,5 @@
 import TechnologiesCard from "./TechnologiesCard";
+import { motion } from "motion/react";
 
 const technologiesItem = [
   {
@@ -66,7 +67,18 @@ const technologiesItem = [
 const Technologies = () => {
   return (
     <section id="technologies" className="section">
-        <div className="container">
+        <motion.div
+          className="container"
+          initial={{
+            opacity: 0
+          }}
+          whileInView={{
+            opacity: 1
+          }}
+          viewport={{
+            margin: "-100px"
+          }}
+        >
             <h2 className="headline-2">
                 My Technologies
             </h2>
@@ -88,7 +100,7 @@ const Technologies = () => {
                     ))
                 }
             </div>
-        </div>
+        </motion.div>
     </section>
   )
 }

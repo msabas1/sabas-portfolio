@@ -4,7 +4,18 @@ import { motion } from "motion/react";
 const Work = () => {
   return (
     <section className="section" id="work">
-        <div className="container">
+        <motion.div
+          className="container"
+          initial={{
+            opacity: 0
+          }}
+          whileInView={{
+            opacity: 1
+          }}
+          viewport={{
+            margin: "-100px"
+          }}
+        >
             <h2 className="headline-2">
                 Work Experience
             </h2>
@@ -42,7 +53,7 @@ const Work = () => {
                     icon="arrow_forward"
                 />
             </motion.div>
-        </div>
+        </motion.div>
     </section>
   )
 }
