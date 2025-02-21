@@ -20,7 +20,7 @@ const socialLinks = [
 const Contact = () => {
   return (
     <section id="contact" className="section">
-        <div className="container lg:grid lg:grid-cols-2 lg:items-stretch">
+        <div id="contact-container" className="container lg:grid lg:grid-cols-2 lg:items-stretch">
             <div className="mb-12 lg:mb-0 lg:flex lg:flex-col">
                 <h2 className="headline-2 lg:max-w-[12ch]">
                     Contact Me
@@ -100,7 +100,7 @@ const Contact = () => {
                     ></textarea>
                 </div>
 
-                <motion.button whileHover={{scale: 1.01}} type="submit" className="btn btn-primary [&]:max-w-full w-full justify-center">
+                <motion.button id="contact-submit-btn" whileHover={{scale: 1.01}} type="submit" className="btn btn-primary [&]:max-w-full w-full justify-center">
                     Submit
                 </motion.button>
             </form>

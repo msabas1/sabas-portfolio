@@ -29,7 +29,7 @@ const Hero = () => {
                 <h2 className="headline-1 max-w-[20ch] sm:max-w-[25ch] lg:max-w-[20ch] mt-5 mb-8 lg:mb-10">
                     Building, Maintaining, & Testing Software Systems
                 </h2>
-                <motion.div whileHover={{scale: 1.01}} className="flex items-center gap-3">
+                <motion.div id="see-more-btn" whileHover={{scale: 1.01}} className="flex items-center gap-3">
                     <ButtonPrimary 
                         href="#about"
                         label="See more"

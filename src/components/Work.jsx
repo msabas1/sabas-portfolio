@@ -47,7 +47,7 @@ const Work = () => {
                 className="img-work-home"/>
             </div>
             
-            <motion.div whileHover={{scale: 1.01}} className="flex items-center gap-3 py-4">
+            <motion.div id="read-work-btn" whileHover={{scale: 1.01}} className="flex items-center gap-3 py-4">
                 <ButtonPrimary 
                     href="/experience"
                     label="Read More"
