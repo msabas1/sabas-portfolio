@@ -5,6 +5,7 @@ const Work = () => {
   return (
     <section className="section" id="work">
         <motion.div
+          id="work-container"
           className="container"
           initial={{
             opacity: 0

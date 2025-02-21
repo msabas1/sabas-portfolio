@@ -19,6 +19,7 @@ const About = () => {
   return (
     <section id="about" className="section">
         <motion.div
+          id="about-container"
           className="container"
           initial={{
             opacity: 0

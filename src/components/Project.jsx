@@ -44,6 +44,7 @@ const Project = () => {
   return (
     <section id="projects" className="section">
         <motion.div
+          id="projects-container"
           className="container"
           initial={{
             opacity: 0

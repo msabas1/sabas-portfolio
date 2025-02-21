@@ -68,6 +68,7 @@ const Technologies = () => {
   return (
     <section id="technologies" className="section">
         <motion.div
+          id="technologies-container"
           className="container"
           initial={{
             opacity: 0
