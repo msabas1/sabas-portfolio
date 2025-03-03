@@ -6,7 +6,7 @@ const Hero = () => {
     <section id="welcome" className="pt-28 lg:pt-36">
         <div id="welcome-banner-container" className="container items-center lg:grid lg:grid-cols-2 lg:gap-2">
             <div>
-                <div className="flex items-center gap-3">
+                <div id="welcome-status" className="flex items-center gap-3">
                     <figure className="img-box w-9 h-9 rounded-lg">
                         <img
                             src="/images/sabas-banner.jpg"
@@ -26,7 +26,7 @@ const Hero = () => {
                     </div>
                 </div>
 
-                <h2 className="headline-1 max-w-[20ch] sm:max-w-[25ch] lg:max-w-[20ch] mt-5 mb-8 lg:mb-10">
+                <h2 id="welcome-summary" className="headline-1 max-w-[20ch] sm:max-w-[25ch] lg:max-w-[20ch] mt-5 mb-8 lg:mb-10">
                     Building, Maintaining, & Testing Software Systems
                 </h2>
                 <motion.div id="see-more-btn" whileHover={{scale: 1.01}} className="flex items-center gap-3">
