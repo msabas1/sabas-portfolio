@@ -9,10 +9,10 @@ const projects = [
       projectLink: 'projects/budget-buddy'
     },
     {
-      imgSrc: '/images/WarehouseFleetItemTable.png',
+      imgSrc: '/images/WarehouseFleetWarehouses.png',
       title: 'Inventory Management',
       tags: ['Full Stack', 'Web App'],
-      projectLink: 'https://github.com/msabas1/Project-1'
+      projectLink: 'https://github.com/msabas1/Inventory-Management'
     },
     {
       imgSrc: '/images/SolarDevice.jpg',
