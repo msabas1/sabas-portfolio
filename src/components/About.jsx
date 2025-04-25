@@ -34,7 +34,7 @@ const About = () => {
             <div id="about-paragraphs" className="bg-zinc-800/50 p-7 rounded-2xl md:p-12">
                 <p className="text-white mb-4 md:mb-8 md:text-xl md:max-w-[75ch]">
                 Nice to meet you, I'm Marvin Neil Sabas! I am a software engineer with experience in building, maintaining, and testing software systems primarily using object-oriented languages.
-                I am proficient in C#/.NET and Java/Spring. I've utilized HTML/CSS/JS using React framework for the frontend and Postgresql and SQL for database management.
+                I am proficient in C#/.NET and Java/Spring; I also develop in Python. I've utilized HTML/CSS/JS using React framework for the frontend and Postgresql and SQL for database management.
                 </p>
 
                 <p className="text-white mb-4 md:mb-8 md:text-xl md:max-w-[75ch]">

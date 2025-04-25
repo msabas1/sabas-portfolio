@@ -3,6 +3,26 @@ import { motion } from "motion/react";
 
 const technologiesItem = [
   {
+    imgSrc: '/images/python-original.svg',
+    label: 'Python',
+    desc: 'Backend'
+  },
+  {
+    imgSrc: '/images/csharp-original.svg',
+    label: 'C#',
+    desc: 'Backend'
+  },
+  {
+    imgSrc: '/images/dot-net-original.svg',
+    label: '.NET',
+    desc: 'Framework'
+  },
+  {
+    imgSrc: '/images/specflow-logo.png',
+    label: 'SpecFlow',
+    desc: 'BDD Testing'
+  },
+  {
     imgSrc: '/images/java-svgrepo-com.svg',
     label: 'Java',
     desc: 'Backend'
